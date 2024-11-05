@@ -1,6 +1,6 @@
 # flutter_passive
 
-A new Flutter project.
+A Flutter example for lecture Mobile Applikationen.
 
 ## Getting Started
 
