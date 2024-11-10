@@ -13,6 +13,9 @@ class CounterApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Um Bloc in einer App nutzen zu können braucht es einen BlocProvider, der
+    // in der Create Funktion  hat.
+    //
     return MaterialApp(
       home: BlocProvider(
         create: (_) => CounterCubit(),

@@ -1,17 +1,13 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'counter_state.dart';
+
 // Events
 abstract class CounterEvent {}
 
 class IncrementEvent extends CounterEvent {}
 
 class DecrementEvent extends CounterEvent {}
-
-// State
-class CounterState {
-  final int value;
-  CounterState(this.value);
-}
 
 // BLoC
 class CounterBloc extends Bloc<CounterEvent, CounterState> {
