@@ -70,6 +70,13 @@ class DrawerWidget extends StatelessWidget {
               Navigator.pop(context); // Close the drawer
             },
           ),
+          ListTile(
+            leading: Icon(Icons.home_max_rounded),
+            title: Text('Another Screen'),
+            onTap: () {
+              Navigator.pop(context); // Close the drawer
+            },
+          ),
         ],
       ),
     );
