@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool isAndroid = true; // By default, the system is set to Android
+  bool isAndroid = false; // By default, the system is set to Android
 
   @override
   Widget build(BuildContext context) {
