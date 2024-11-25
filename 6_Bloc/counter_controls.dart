@@ -3,6 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'counter_bloc.dart';
 
 class CounterControls extends StatelessWidget {
+  const CounterControls({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Row(
